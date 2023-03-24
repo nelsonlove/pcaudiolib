@@ -7,6 +7,8 @@ if ! test -f "$LIBTOOLIZE" ; then
 fi
 
 mkdir -p m4
+pwd
+ls
 ln -sf README.md README
 ln -sf ChangeLog.md NEWS
 
